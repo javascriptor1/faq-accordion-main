@@ -103,3 +103,10 @@ details > p {
     margin-bottom: 16px;
   }
 }
+
+/* Active state styling */
+
+details > summary:hover{
+  cursor: pointer;
+  color: #ad28eb;
+}

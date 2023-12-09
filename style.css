@@ -28,6 +28,7 @@ body {
   padding: 24px;
   padding-bottom: 0px;
   border-radius: 8px;
+  box-shadow: 0px 11px 30px 0px #e8c9eb;
 }
 
 .header-div {
@@ -40,14 +41,11 @@ body {
   left: -8px;
   top: -1px;
 }
-h1,
-summary {
-  color: var(--Dark-purple);
+h1 {
   font-weight: 800;
+  color: var(--Dark-purple);
 }
 
-main {
-}
 details > summary {
   list-style: none;
   display: flex;
@@ -55,6 +53,8 @@ details > summary {
   align-items: center;
   gap: 16px;
   margin: 22px 0;
+  font-weight: 600;
+  color: var(--Dark-purple);
 }
 
 hr {
@@ -65,7 +65,7 @@ details > p {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 16px;
-  color: hsl(292, 16%, 49%);;
+  color: hsl(292, 16%, 49%);
 }
 
 /* Desktop design */
@@ -82,10 +82,11 @@ details > p {
     max-width: 600px;
     padding: 40px 38px 16px;
     border-radius: 16px;
-}
+  }
   .header-div {
     padding-left: 10px;
     gap: 14px;
+    margin-bottom: 32px;
   }
   .header-div img {
     transform: scale(100%);
@@ -96,7 +97,7 @@ details > p {
   details > summary {
     font-size: 18px;
     gap: 16px;
-    margin: 24px 0 ;
+    margin: 24px 0;
   }
   details > p {
     font-size: 16px;
@@ -107,7 +108,7 @@ details > p {
 
 /* Active state styling */
 
-details > summary:hover{
+details > summary:hover {
   cursor: pointer;
   color: #ad28eb;
 }

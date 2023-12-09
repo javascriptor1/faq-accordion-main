@@ -16,8 +16,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
-
 ## Overview
 
 ### The challenge
@@ -42,7 +40,7 @@ Users should be able to:
 
 Hello everyone 👋, I'm Mohammed and this is my solution to this nice challenge.
 
-This challenge was very easy to solve. FAQ is ver common component of lots of web pages and this challenge is very good to make you ready and gain required skills.
+This challenge was very easy to solve. FAQ is a very common component of lots of web pages and this challenge is very good to make you ready and gain the required skills.
 
 I will briefly talk about my current process of solving FEM challenges and I hope it will help and inspire other beginners (like me 😊). To make this process actionable so others can follow, I will list the steps I take to solve the challenge-
 
@@ -94,31 +92,30 @@ This process does not take into account frameworks or libraries I might use in m
 
 I love to hear from you. Please let me know how can I improve my process OR share your process so we all benefit from each others.
 
-### Built with
+**Built with** 🛠
 
-- Semantic HTML5 markup
-- CSS custom properties
-- CSS Flexbox
-- Mobile-first workflow
-- [PixelPerfect](https://www.welldonecode.com/perfectpixel/) chrome extension
-- [Animate.css](https://animate.style/)
-- [Responsively](https://responsively.app/)
-- [Web ToolBox](https://web-toolbox.dev/en/tools/image-compare-slider)
+- Semantic HTML5 markup ✔
+- CSS custom properties 🎨
+- CSS Flexbox🎁
+- Mobile-first workflow 📱
+- [PixelPerfect](https://www.welldonecode.com/perfectpixel/) chrome extension👌
+- [Animate.css](https://animate.style/)📽
+- [Responsively](https://responsively.app/)✌
+- [Web ToolBox](https://web-toolbox.dev/en/tools/image-compare-slider)⚒
 
-### What I learned
+**What I learned**
 
 - DOM traversing
 
-### Continued development
+**Continued development**
 
 - Box shadow in CSS
 - background images sizes
 
-### Useful resources
+**Useful resources**
 
 - [Traversing the DOM with JavaScript](https://zellwk.com/blog/dom-traversals/)
 
-## Author
+**Author**
 
-- Frontend Mentor -[https://www.frontendmentor.io/profile/javascriptor1]
 - Twitter -[https://twitter.com/javascriptor1]

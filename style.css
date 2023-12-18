@@ -78,7 +78,7 @@ details > p {
   body {
     background-image: url("assets/images/background-pattern-desktop.svg");
     background-repeat: no-repeat;
-    background-size: 100vw 30%;
+    background-size: 100% 30%;
     overflow-x: hidden;
   }
   .container {

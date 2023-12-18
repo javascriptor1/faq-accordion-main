@@ -31,6 +31,10 @@ body {
   box-shadow: 0px 11px 30px 0px #e8c9eb;
 }
 
+abbr[title]{
+  text-decoration: none;
+}
+
 .header-div {
   display: flex;
   gap: 8px;

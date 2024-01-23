@@ -16,3 +16,4 @@
 .prettierignore
 # Local Netlify folder
 .netlify
+.node_modules

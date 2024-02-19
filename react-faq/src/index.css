@@ -76,12 +76,11 @@ details > p {
 
 /* Desktop design */
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   body {
     background-image: url("../public/assets/images/background-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-size: 100% 30%;
-    overflow-x: hidden;
   }
   .container {
     margin: 168px auto 0px;

@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { Fragment, useState } from "react";
 import minus from "./icon-minus.svg";
 import plus from "./icon-plus.svg";
@@ -6,7 +5,7 @@ import plus from "./icon-plus.svg";
 const Faq = ({ questionsObj }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
-  function handleClick(e, id) {
+  function handleClick(id) {
     if (selectedId !== id) {
       setSelectedId(id);
     }
@@ -14,14 +13,13 @@ const Faq = ({ questionsObj }) => {
       setIsOpen(!isOpen);
     }
   }
-  console.log(`selected value is ${selectedId}`);
-  console.log(`isOpen value is ${isOpen}`);
+
   return (
     <main>
       {questionsObj.map((question, index) => (
         <Fragment key={question.id}>
           <details
-            onClick={(e) => handleClick(e, question.id)}
+            onClick={(e) => handleClick(question.id)}
             open={selectedId === question.id ? isOpen : null}
           >
             <summary>

@@ -3,14 +3,13 @@ import minus from "./icon-minus.svg";
 import plus from "./icon-plus.svg";
 
 const Faq = ({ questionsObj }) => {
-  const [isOpen, setIsOpen] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
-  function handleClick(id) {
-    if (selectedId !== id) {
-      setSelectedId(id);
-    }
-    if (selectedId === id) {
-      setIsOpen(!isOpen);
+  function handleClick(e, question) {
+    e.preventDefault();
+    if (selectedId !== question.id) {
+      setSelectedId(question.id);
+    } else {
+      setSelectedId(null);
     }
   }
 
@@ -19,18 +18,14 @@ const Faq = ({ questionsObj }) => {
       {questionsObj.map((question, index) => (
         <Fragment key={question.id}>
           <details
-            onClick={(e) => handleClick(question.id)}
-            open={selectedId === question.id ? isOpen : null}
+            onClick={(e) => handleClick(e, question)}
+            open={selectedId === question.id}
           >
             <summary>
               <span>{question.question}</span>
 
               <img
-                src={
-                  isOpen === false && selectedId === question.id
-                    ? `${minus}`
-                    : `${plus}`
-                }
+                src={selectedId === question.id ? `${minus}` : `${plus}`}
                 alt=""
               />
             </summary>
